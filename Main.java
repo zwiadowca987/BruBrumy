@@ -60,23 +60,23 @@ public class Main {
         while(numer < 6) {
             switch(menu()) {
                 case 1:
-                    car2.biggerSpeed();
+                    car1.biggerSpeed();
                     break;
 
                 case 2:
-                    car2.lowerSpeed();
+                    car1.lowerSpeed();
                     break;
 
                 case 3:
-                    car2.getIn();
+                    car1.getIn();
                     break;
 
                 case 4:
-                    car2.getOut();
+                    car1.getOut();
                     break;
 
                 case 5:
-                    car2.changeOwner();
+                    car1.changeOwner();
                     break;
             }
         }
