@@ -11,18 +11,18 @@ public class Vehicle {
     private int bufor;
     Scanner Input = new Scanner(System.in);
 
-    ///////////////////////////////////////////////////////
-    ///////////////////////////////////////////////////////
-    // BRAK BLOKÓW INICJALIZACYJNYCH Z POWODU BRAKU STAŁYCH
-    ///////////////////////////////////////////////////////
-    ///////////////////////////////////////////////////////
-
     public Vehicle() {
         maxSpeed = 0;
         actualSpeed = 0;
         aaop = 0;
         maop = 0;
         ownerName = "";
+    }
+    
+    {
+        maxSpeed = 100;
+        maop = 5;
+        ownerName = "Ja";
     }
 
     private int numbersInput(String a) {
